@@ -7,7 +7,7 @@
 
 
 ScriptNombre:= "GrindMachineII-AHK"
-ScriptVersion:= "v1.0"
+ScriptVersion:= "v1.2"
 ScriptApi:= "https://api.github.com/repos/crisspro/grindmachineii-ahk/releases/latest"
 VSTNombre:= "Grind Machine II"
 VSTControl:= "IPlug"
