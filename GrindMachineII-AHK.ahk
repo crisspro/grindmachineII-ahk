@@ -1,4 +1,4 @@
-;nombre: GrindMachineII-AHK
+﻿;nombre: GrindMachineII-AHK
 ;Autor: crisspro
 ;Año: 2020
 ;Licencia: GPL-3.0
@@ -77,9 +77,9 @@ if i = tag_name
 {
 If obj != %ScriptVersion%
 { 
+SoundPlay,sounds\version.wav
 if (InStr(A_language,"0a") = "3")
 {
-SoundPlay,sounds\version.wav
 MsgBox, 4, , Hay una nueva versión de este script. ¿Quieres descargarlo ahora?
 IfMsgBox Yes
 resp:= True
